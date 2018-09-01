@@ -1,7 +1,13 @@
 # Header
 menu:
   Home: /
+  Research: /research  
+  Tutorials: /tutorials
+  Programming: /programming
+  Solutions: /solutions
   Archives: /archives
+  Others: /others
+  About Me: /aboutMe
 rss: /atom.xml
 
 # Content
@@ -19,9 +25,9 @@ widgets:
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
-# - category
-# - tagcloud
-# - archive
+ - category
+ - tagcloud
+ - archive
 
 # widget behavior
 archive_type: 'monthly'
@@ -35,3 +41,22 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+
+# Security
+##
+encrypt:
+    enable: true
+
+# Math
+math:
+  engine: 'mathjax' # or 'katex'
+  mathjax:
+    src: custom_mathjax_source
+    config:
+      # MathJax config
+  katex:
+    css: custom_css_source
+    js: custom_js_source # not used
+    config:
+      # KaTeX config
