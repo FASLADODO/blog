@@ -6,3 +6,4 @@ date: 2018-08-15 12:26:26
 Jianyuan (Jet) Yu
 email: MY FIRST NAME AT VT DOT EDU
 [resume](/content/doc/resume.pdf)
+[resume web page](https://computing.ece.vt.edu/~jianyuan/)
